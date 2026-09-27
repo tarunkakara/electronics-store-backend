@@ -1,0 +1,23 @@
+{
+  "name": "electronics-store-backend",
+  "version": "1.0.0",
+  "description": "JSON Server Backend API for Electronics Store",
+  "main": "server.cjs",
+  "type": "commonjs",
+  "scripts": {
+    "start": "node server.cjs",
+    "dev": "json-server --watch db.json --port 5000"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "json-server": "^0.17.4"
+  },
+  "keywords": [
+    "json-server",
+    "electronics-store",
+    "api",
+    "render"
+  ],
+  "author": "",
+  "license": "ISC"
+}

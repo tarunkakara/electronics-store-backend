@@ -1,0 +1,349 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Sravya",
+      "email": "sravya@gmail.com",
+      "password": "admin123"
+    },
+    {
+      "id": "2",
+      "name": "Teja",
+      "email": "teja@gmail.com",
+      "password": "admin123"
+    },
+    {
+      "id": "3",
+      "name": "Demo User",
+      "email": "demo@electronics.com",
+      "password": "password123"
+    }
+  ],
+  "products": [
+    {
+      "id": "1",
+      "name": "Apple MacBook Pro 16\" M3 Pro",
+      "brand": "Apple",
+      "category": "Laptops",
+      "budget": "High",
+      "price": 249900,
+      "originalPrice": 269900,
+      "rating": 4.9,
+      "reviewsCount": 320,
+      "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?auto=format&fit=crop&w=800&q=80",
+      "description": "Supercharged by M3 Pro with an 12-core CPU and 18-core GPU. Stunning 16.2-inch Liquid Retina XDR display with extreme dynamic range.",
+      "inStock": true,
+      "warranty": "1 Year Apple Warranty",
+      "specs": [
+        "16.2-inch Liquid Retina XDR display (3456 x 2234)",
+        "Apple M3 Pro 12-core CPU, 18-core GPU",
+        "18GB Unified Memory, 512GB Fast SSD",
+        "Up to 22 hours battery life with MagSafe 3"
+      ],
+      "features": [
+        "ProMotion 120Hz refresh rate",
+        "Spatial Audio 6-speaker sound system",
+        "Three Thunderbolt 4 ports & HDMI port",
+        "Magic Keyboard with Touch ID"
+      ]
+    },
+    {
+      "id": "2",
+      "name": "Samsung Galaxy S24 Ultra 5G",
+      "brand": "Samsung",
+      "category": "Smartphones",
+      "budget": "High",
+      "price": 129999,
+      "originalPrice": 139999,
+      "rating": 4.8,
+      "reviewsCount": 540,
+      "image": "https://images.unsplash.com/photo-1610945415295-d9bbf067e59c?auto=format&fit=crop&w=800&q=80",
+      "description": "Meet Galaxy S24 Ultra with Galaxy AI, Titanium exterior, built-in S Pen, and 200MP Quad Telephoto camera with nightography.",
+      "inStock": true,
+      "warranty": "1 Year Manufacturer Warranty",
+      "specs": [
+        "6.8\" Dynamic AMOLED 2X 120Hz display",
+        "Snapdragon 8 Gen 3 for Galaxy processor",
+        "12GB RAM, 256GB Storage",
+        "5000mAh Battery with 45W Super Fast Charging"
+      ],
+      "features": [
+        "Circle to Search with Google AI",
+        "Titanium frame construction with Gorilla Armor",
+        "200MP main camera with 100x Space Zoom",
+        "Integrated S Pen stylus"
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Sony WH-1000XM5 Wireless Headphones",
+      "brand": "Sony",
+      "category": "Audio",
+      "budget": "Medium",
+      "price": 29990,
+      "originalPrice": 34990,
+      "rating": 4.7,
+      "reviewsCount": 890,
+      "image": "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=800&q=80",
+      "description": "Industry-leading noise canceling with two processors and 8 microphones. Magnificent sound engineered to perfection with High-Resolution Audio.",
+      "inStock": true,
+      "warranty": "1 Year Sony India Warranty",
+      "specs": [
+        "Auto NC Optimizer noise canceling system",
+        "30mm precision-engineered drivers",
+        "30-hour battery life with quick charging (3 min = 3 hrs)",
+        "Ultra-comfortable soft fit leather design"
+      ],
+      "features": [
+        "Speak-to-Chat smart pause technology",
+        "Multipoint Bluetooth 5.2 connection",
+        "Crystal clear hands-free calling with 4 beamforming mics",
+        "Customizable EQ via Sony Headphones Connect App"
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Apple Watch Series 10 GPS 46mm",
+      "brand": "Apple",
+      "category": "Wearables",
+      "budget": "Medium",
+      "price": 49900,
+      "originalPrice": 52900,
+      "rating": 4.8,
+      "reviewsCount": 210,
+      "image": "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=800&q=80",
+      "description": "Thinnest Apple Watch ever with our biggest display. Features Sleep Apnea notifications, faster charging, and water depth gauge.",
+      "inStock": true,
+      "warranty": "1 Year Apple Warranty",
+      "specs": [
+        "Wide-angle OLED Always-On Retina display",
+        "S10 SiP with 64-bit dual-core processor",
+        "50m water resistant & swimproof",
+        "Up to 18 hours normal use, fast charge to 80% in 30 mins"
+      ],
+      "features": [
+        "ECG app & Blood Oxygen tracking",
+        "Sleep Apnea notification system",
+        "Crash Detection & Fall Detection",
+        "WatchOS 11 with smart stack widgets"
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Sony PlayStation 5 Slim Console",
+      "brand": "Sony",
+      "category": "Gaming",
+      "budget": "Medium",
+      "price": 54990,
+      "originalPrice": 59990,
+      "rating": 4.9,
+      "reviewsCount": 1120,
+      "image": "https://images.unsplash.com/photo-1606813907291-d86efa9b94db?auto=format&fit=crop&w=800&q=80",
+      "description": "Experience lightning-fast loading with an ultra-high speed 1TB SSD, deeper immersion with haptic feedback, adaptive triggers, and 3D Audio.",
+      "inStock": true,
+      "warranty": "1 Year Sony Warranty",
+      "specs": [
+        "AMD Zen 2 8-core CPU & RDNA 2 GPU",
+        "1TB Custom Ultra-High Speed NVMe SSD",
+        "Supports 4K 120Hz gaming & 8K output",
+        "Ray Tracing acceleration hardware"
+      ],
+      "features": [
+        "DualSense wireless controller with haptic feedback",
+        "Tempest 3D AudioTech immersion",
+        "Backwards compatibility with PS4 titles",
+        "Slimmer compact modular chassis"
+      ]
+    },
+    {
+      "id": "6",
+      "name": "Dell XPS 15 OLED Touchscreen",
+      "brand": "Dell",
+      "category": "Laptops",
+      "budget": "High",
+      "price": 194990,
+      "originalPrice": 219990,
+      "rating": 4.6,
+      "reviewsCount": 175,
+      "image": "https://images.unsplash.com/photo-1593642632823-8f785ba67e45?auto=format&fit=crop&w=800&q=80",
+      "description": "High performance creator laptop with 13th Gen Intel Core i7, NVIDIA GeForce RTX 4060, and breathtaking 3.5K OLED InfinityEdge touchscreen.",
+      "inStock": true,
+      "warranty": "2 Years Premium Support Onsite",
+      "specs": [
+        "15.6\" 3.5K (3456x2160) OLED Touch Display",
+        "Intel Core i7-13700H 14-core processor",
+        "NVIDIA GeForce RTX 4060 8GB GDDR6",
+        "32GB DDR5 RAM, 1TB PCIe NVMe SSD"
+      ],
+      "features": [
+        "CNC machined aluminum and carbon fiber palm rest",
+        "Quad-speaker design with Waves Nx 3D audio",
+        "Killer Wi-Fi 6E & Bluetooth 5.2",
+        "86Whr battery with express charge"
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Apple iPhone 16 Pro 256GB",
+      "brand": "Apple",
+      "category": "Smartphones",
+      "budget": "High",
+      "price": 129900,
+      "originalPrice": 134900,
+      "rating": 4.9,
+      "reviewsCount": 680,
+      "image": "https://images.unsplash.com/photo-1592750475338-74b7b21085ab?auto=format&fit=crop&w=800&q=80",
+      "description": "Featuring Grade 5 Titanium design, Camera Control button, 4K 120 fps Dolby Vision, and the powerhouse A18 Pro chip.",
+      "inStock": true,
+      "warranty": "1 Year Apple Warranty",
+      "specs": [
+        "6.3\" Super Retina XDR ProMotion 120Hz OLED",
+        "A18 Pro chip with 6-core GPU & Neural Engine",
+        "48MP Fusion Camera + 5x Telephoto optical zoom",
+        "USB-C with USB 3 speeds up to 10Gb/s"
+      ],
+      "features": [
+        "Dedicated Camera Control tactile button",
+        "Apple Intelligence personal generative AI",
+        "Action Button customization",
+        "Ceramic Shield front glass 2x tougher"
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Bose QuietComfort Ultra Earbuds",
+      "brand": "Bose",
+      "category": "Audio",
+      "budget": "Medium",
+      "price": 25900,
+      "originalPrice": 29900,
+      "rating": 4.6,
+      "reviewsCount": 310,
+      "image": "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=800&q=80",
+      "description": "World-class noise cancellation, breakthrough spatialized Bose Immersive Audio, and CustomTune technology shaped to your ears.",
+      "inStock": true,
+      "warranty": "1 Year Bose Warranty",
+      "specs": [
+        "CustomTune personalized acoustic calibration",
+        "Up to 6 hours listening (24 hours with charging case)",
+        "Bluetooth 5.3 with aptX Adaptive codec",
+        "IPX4 sweat and water resistance"
+      ],
+      "features": [
+        "Bose Immersive Spatialized Audio",
+        "Quiet Mode & Aware Mode with ActiveSense",
+        "Touch controls on earbuds for volume & modes",
+        "Bose Music App with 3-band adjustable EQ"
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Canon EOS R50 Mirrorless Camera",
+      "brand": "Canon",
+      "category": "Cameras",
+      "budget": "Medium",
+      "price": 64990,
+      "originalPrice": 72990,
+      "rating": 4.7,
+      "reviewsCount": 180,
+      "image": "https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&w=800&q=80",
+      "description": "Compact and lightweight RF-mount mirrorless camera designed for content creators, featuring 24.2MP APS-C sensor and uncropped 4K 30p video.",
+      "inStock": true,
+      "warranty": "2 Years Canon India Warranty",
+      "specs": [
+        "24.2 Megapixel APS-C CMOS Sensor",
+        "DIGIC X image processor with Dual Pixel CMOS AF II",
+        "6K oversampled uncropped 4K 30p and FHD 120p",
+        "Vari-angle touchscreen LCD display"
+      ],
+      "features": [
+        "Subject detection for people, animals, and vehicles",
+        "Close-up demo mode for vlogging and reviews",
+        "Direct USB-C webcam streaming capability",
+        "Includes RF-S 18-45mm IS STM Kit Lens"
+      ]
+    },
+    {
+      "id": "10",
+      "name": "Logitech MX Master 3S Wireless Mouse",
+      "brand": "Logitech",
+      "category": "Accessories",
+      "budget": "Low",
+      "price": 8995,
+      "originalPrice": 10995,
+      "rating": 4.9,
+      "reviewsCount": 1450,
+      "image": "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=800&q=80",
+      "description": "Iconic ergonomic performance mouse with Quiet Clicks, 8K DPI any-surface tracking (including glass), and MagSpeed electromagnetic scroll wheel.",
+      "inStock": true,
+      "warranty": "1 Year Logitech Replacement Warranty",
+      "specs": [
+        "Darkfield 8000 DPI high-precision sensor",
+        "MagSpeed scroll wheel: 1,000 lines per second",
+        "70-day battery life on a single full USB-C charge",
+        "Dual connectivity: Bluetooth Low Energy & Logi Bolt"
+      ],
+      "features": [
+        "90% quieter clicks compared to predecessor",
+        "Cross-computer Flow control across Mac and Windows",
+        "Thumb scroll wheel and customizable gesture button",
+        "Ergonomic sculpted silhouette for wrist support"
+      ]
+    },
+    {
+      "id": "11",
+      "name": "ASUS ROG Zephyrus G14 Gaming Laptop",
+      "brand": "ASUS",
+      "category": "Gaming",
+      "budget": "High",
+      "price": 169990,
+      "originalPrice": 189990,
+      "rating": 4.8,
+      "reviewsCount": 240,
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?auto=format&fit=crop&w=800&q=80",
+      "description": "Ultraportable 14-inch gaming titan powered by AMD Ryzen 9 8945HS with AI, NVIDIA RTX 4070, and a radiant 3K 120Hz ROG Nebula OLED display.",
+      "inStock": true,
+      "warranty": "1 Year Onsite + Accidental Damage Protection",
+      "specs": [
+        "14\" 3K 120Hz 0.2ms ROG Nebula OLED (2880 x 1800)",
+        "AMD Ryzen 9 8945HS with Ryzen AI (up to 5.2GHz)",
+        "NVIDIA GeForce RTX 4070 8GB GDDR6 (90W TGP)",
+        "32GB LPDDR5X RAM, 1TB PCIe 4.0 NVMe SSD"
+      ],
+      "features": [
+        "Slash Lighting array customizable lid LED",
+        "All-aluminum CNC unibody weighing only 1.5kg",
+        "Vapor chamber cooling with liquid metal thermal compound",
+        "Dolby Atmos quad speakers with smart amplifier"
+      ]
+    },
+    {
+      "id": "12",
+      "name": "Anker 737 Power Bank (PowerCore 24K)",
+      "brand": "Anker",
+      "category": "Accessories",
+      "budget": "Low",
+      "price": 11999,
+      "originalPrice": 14999,
+      "rating": 4.8,
+      "reviewsCount": 620,
+      "image": "https://images.unsplash.com/photo-1609592424109-dd9892f1b177?auto=format&fit=crop&w=800&q=80",
+      "description": "Ultra-powerful 140W two-way fast charging with GaNPrime technology, 24,000mAh capacity, and smart interactive digital display.",
+      "inStock": true,
+      "warranty": "2 Years Anker Warranty",
+      "specs": [
+        "24,000mAh high-density lithium-ion battery",
+        "140W maximum single port USB-C Power Delivery 3.1",
+        "Total 3 ports: 2x USB-C and 1x USB-A",
+        "Recharges to full capacity in only 52 minutes"
+      ],
+      "features": [
+        "Smart digital display shows power output and recharge time",
+        "ActiveShield 2.0 real-time temperature monitoring",
+        "Can charge a MacBook Pro 16\" to 50% in 40 minutes",
+        "Airline compliant battery rating"
+      ]
+    }
+  ],
+  "orders": []
+}
